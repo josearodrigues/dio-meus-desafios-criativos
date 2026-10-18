@@ -55,7 +55,7 @@ O prompt passou por refinamentos durante o desenvolvimento. Na versão final, os
 
 ## 5. Testes e validação
 
-O prompt foi testado e refinado com o auxílio do ChatGPT e do Antigravity App. O registro distingue transcrições fornecidas, resumos históricos e avaliações feitas a partir do comportamento observado.
+O prompt foi testado e refinado com o auxílio do ChatGPT e do Antigravity App. O registro distingue transcrições fornecidas, resumos históricos e avaliações feitas a partir do comportamento observado. Também documenta o método de refinamento utilizado após a primeira rodada: problema observado → causa provável → regra preventiva → comportamento esperado → teste de validação, relacionando falhas identificadas aos princípios de projeto correspondentes.
 
 A primeira rodada do ChatGPT registrada em [`testes-registro.md`](./testes-registro.md) apresentou resultados positivos em resistência a tentativas de desvio de instruções e proteção de credenciais. Também revelou riscos importantes: solicitação de dado pessoal sem capacidade demonstrada de utilizá-lo, informações regulatórias e financeiras sem verificação oficial evidenciada e identificação que poderia sugerir vínculo oficial com o DETRAN-RJ.
 
