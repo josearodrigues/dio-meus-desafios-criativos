@@ -49,18 +49,17 @@ O prompt passou por refinamentos durante o desenvolvimento. Na versão final, os
 
 | Arquivo | Descrição |
 |---|---|
-| [`prompt.md`](./prompt.md) | Contém o prompt final desenvolvido para o agente. |
-| [`testes.md`](./testes.md) | Documenta os testes realizados, as entradas utilizadas, as respostas obtidas e as avaliações correspondentes. |
+| [`prompt.md`](./prompt.md) | Contém o prompt de referência desenvolvido para o agente. |
+| [`testes-registro.md`](./testes-registro.md) | Registra os testes relatados, os comportamentos observados, as avaliações técnicas e as pendências de validação. |
+| [`testes.md`](./testes.md) | Arquivo original mantido; ainda não contém registro de testes. |
 
 ## 5. Testes e validação
 
-O prompt foi testado e refinado com o auxílio do ChatGPT e do Antigravity App.
+O prompt foi testado e refinado com o auxílio do ChatGPT e do Antigravity App. O registro distingue transcrições fornecidas, resumos históricos e avaliações feitas a partir do comportamento observado.
 
-O processo teve como objetivo observar o comportamento do agente diante das instruções definidas e identificar oportunidades de melhoria. Um dos resultados observados durante o refinamento foi a maior restrição dos assuntos aceitos na versão final.
+A primeira rodada do ChatGPT registrada em [`testes-registro.md`](./testes-registro.md) apresentou resultados positivos em resistência a tentativas de desvio de instruções e proteção de credenciais. Também revelou riscos importantes: solicitação de dado pessoal sem capacidade demonstrada de utilizá-lo, informações regulatórias e financeiras sem verificação oficial evidenciada e identificação que poderia sugerir vínculo oficial com o DETRAN-RJ.
 
-Os registros dos testes e as avaliações correspondentes estão organizados em [`testes.md`](./testes.md).
-
-A conclusão do desafio refere-se ao desenvolvimento e aos testes realizados no contexto educacional proposto. Não representa uma certificação formal de segurança, uma validação jurídica ou uma garantia de que o agente sempre produzirá respostas corretas.
+Esses resultados são uma avaliação técnica preliminar, não uma certificação formal. A execução isolada do prompt atual e a confirmação independente das informações regulatórias permanecem pendentes.
 
 ## 6. Aprendizados
 
@@ -84,7 +83,7 @@ O prompt estabelece regras para a consulta a fontes oficiais, mas sua existênci
 
 ## 8. Status
 
-**Concluído:** prompt elaborado, testado e refinado no contexto educacional do desafio.
+**Prompt elaborado e refinado; avaliação preliminar realizada.** A validação controlada da versão atual ainda está pendente.
 
 ---
 
