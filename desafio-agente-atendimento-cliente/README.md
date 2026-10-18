@@ -51,7 +51,7 @@ O prompt passou por refinamentos durante o desenvolvimento. Na versão final, os
 |---|---|
 | [`prompt.md`](./prompt.md) | Contém o prompt de referência desenvolvido para o agente. |
 | [`testes-registro.md`](./testes-registro.md) | Registra os testes relatados, os comportamentos observados, as avaliações técnicas e as pendências de validação. |
-| [`testes.md`](./testes.md) | Arquivo original mantido; ainda não contém registro de testes. |
+| [`testes.md`](./testes.md) | Modelo operacional para registrar cada rodada, configuração, entradas e respostas literais, avaliação, evidências e pendências. |
 
 ## 5. Testes e validação
 
