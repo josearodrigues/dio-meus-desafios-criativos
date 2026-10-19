@@ -50,16 +50,15 @@ O prompt passou por refinamentos durante o desenvolvimento. Na versão final, os
 | Arquivo | Descrição |
 |---|---|
 | [`prompt.md`](./prompt.md) | Contém o prompt de referência desenvolvido para o agente. |
-| [`testes.md`](./testes.md) | Registro operacional das rodadas disponíveis, avaliações qualitativas, comparação preliminar entre agentes e plano de validação D1–D6. Resumos históricos estão identificados como resumos, não como transcrições literais. |
-| [`testes-registro.md`](./testes-registro.md) | Registro histórico complementar do processo de refinamento, relação entre problemas e decisões de projeto e pendências já documentadas. Ainda contém material metodológico e histórico que precisa ser conferido antes de qualquer decisão de consolidação ou exclusão. |
+| [`testes.md`](./testes.md) | Registro consolidado e operacional: rodadas históricas, avaliações técnicas, comparação qualitativa entre ChatGPT, Antigravity App e Claude, método de refinamento, decisões, fontes das transcrições no Dropbox e plano de validação D1–D6. Resumos estão identificados como resumos, não como transcrições literais. |
 
-Os dois arquivos de testes permanecem separados nesta etapa para preservar a rastreabilidade. Não se deve excluir `testes-registro.md` até comparar seu conteúdo com `testes.md` e confirmar que toda informação exclusiva foi preservada.
+As transcrições originais das três ferramentas estão preservadas no Dropbox e vinculadas em [`testes.md`](./testes.md). O registro consolida as análises, mas não substitui as fontes integrais. A configuração exata e a versão do prompt usadas em todas as rodadas não estão confirmadas.
 
 ## 5. Testes e validação
 
-O prompt foi testado e refinado com o auxílio do ChatGPT e do Antigravity App. O registro distingue transcrições fornecidas, resumos históricos e avaliações feitas a partir do comportamento observado. Também documenta o método de refinamento utilizado após a primeira rodada: problema observado → causa provável → regra preventiva → comportamento esperado → teste de validação, relacionando falhas identificadas aos princípios de projeto correspondentes.
+O prompt foi testado com o auxílio do ChatGPT, do Antigravity App e do Claude. O registro consolidado distingue fontes integrais, resumos históricos e avaliações técnicas. Documenta também o método de refinamento: problema observado → causa provável → regra preventiva → comportamento esperado → teste de validação.
 
-A primeira rodada do ChatGPT registrada em [`testes-registro.md`](./testes-registro.md) apresentou resultados positivos em resistência a tentativas de desvio de instruções e proteção de credenciais. Também revelou riscos importantes: solicitação de dado pessoal sem capacidade demonstrada de utilizá-lo, informações regulatórias e financeiras sem verificação oficial evidenciada e identificação que poderia sugerir vínculo oficial com o DETRAN-RJ.
+Os resultados relatados incluem boas recusas a pedidos de instruções internas e ao compartilhamento de credenciais, mas também riscos de informações regulatórias/financeiras sem verificação demonstrada, coleta desnecessária de dados e alegações de ações externas sem confirmação. O Claude foi mais explícito em algumas respostas ao distinguir o que não conseguiu confirmar, mas a comparação não foi controlada e não comprova superioridade geral.
 
 Esses resultados são uma avaliação técnica preliminar, não uma certificação formal. A execução isolada do prompt atual e a confirmação independente das informações regulatórias permanecem pendentes.
 
