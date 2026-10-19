@@ -2,7 +2,7 @@
 
 ## Finalidade
 
-Este é o registro consolidado e operacional do projeto: reúne os resumos históricos, as avaliações técnicas, as decisões de refinamento, a comparação entre ferramentas, as referências às transcrições originais e o plano de validação. Novas execuções devem ser registradas aqui, preservando entradas e respostas literalmente. As conversas-fonte completas continuam nos arquivos indicados no Dropbox; os resumos deste documento não substituem essas transcrições.
+Este é o registro consolidado e operacional do projeto: reúne os resumos históricos, as avaliações técnicas, as decisões de refinamento, a comparação entre ferramentas, as referências às transcrições originais e o plano de validação. Novas execuções devem ser registradas aqui, preservando entradas e respostas literalmente. As transcrições integrais das conversas históricas com Antigravity App, ChatGPT e Claude estão incluídas ao final deste arquivo. Os arquivos originais no Dropbox servem apenas como referência de origem e integridade.
 
 ## Regras de preenchimento
 
