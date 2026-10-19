@@ -50,9 +50,9 @@ O prompt passou por refinamentos durante o desenvolvimento. Na versão final, os
 | Arquivo | Descrição |
 |---|---|
 | [`prompt.md`](./prompt.md) | Contém o prompt de referência desenvolvido para o agente. |
-| [`testes.md`](./testes.md) | Registro consolidado e operacional: rodadas históricas, avaliações técnicas, comparação qualitativa entre ChatGPT, Antigravity App e Claude, método de refinamento, decisões, fontes das transcrições no Dropbox e plano de validação D1–D6. Resumos estão identificados como resumos, não como transcrições literais. |
+| [`testes.md`](./testes.md) | Registro histórico consolidado, com transcrições integrais das conversas com ChatGPT, Antigravity App e Claude, avaliações técnicas, decisões e limitações conhecidas. |
 
-As transcrições originais das três ferramentas estão preservadas no Dropbox e vinculadas em [`testes.md`](./testes.md). O registro consolida as análises, mas não substitui as fontes integrais. A configuração exata e a versão do prompt usadas em todas as rodadas não estão confirmadas.
+As transcrições integrais das três ferramentas estão incluídas em [`testes.md`](./testes.md), sem depender do acesso ao Dropbox para leitura. Os arquivos originais no Dropbox permanecem como referência de origem. A configuração exata e a versão do prompt usadas em todas as rodadas não estão confirmadas; não há histórico de versões do prompt registrado em commits.
 
 ## 5. Testes e validação
 
