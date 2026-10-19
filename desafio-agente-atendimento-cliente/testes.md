@@ -544,10 +544,10 @@ Este checkpoint registra o estado do trabalho para retomada sem depender da mem�
 
 ### Estado do repositório após as alterações
 
-- `prompt.md`: não alterado nesta etapa; SHA consultado antes da alteração documental: `81af084fab441c9440b87dbbc07f401fe1fdbd0d`.
-- `testes.md`: atualizado para incluir a comparação, o método, o plano D1–D6, decisões e este checkpoint.
-- `README.md` da pasta: atualizado para explicar a função dos dois arquivos de testes e alertar contra exclusão prematura.
-- `registro histórico anterior (agora consolidado neste arquivo)`: preservado, sem alteração ou exclusão.
+- `prompt.md`: não alterado; SHA confirmado após a consolidação: `81af084fab441c9440b87dbbc07f401fe1fdbd0d`.
+- `testes.md`: consolidado e atualizado com fontes do Dropbox, análise dos três agentes, histórico resumido das rodadas, método de refinamento, matriz de falhas/decisões, critérios de reteste, cenários D1–D6 e este checkpoint.
+- `README.md` da pasta: atualizado para apontar somente para o registro consolidado e explicar as limitações da avaliação.
+- `testes-registro.md`: removido após a conferência e incorporação de seu conteúdo metodológico e histórico em `testes.md`. O commit de remoção foi `5f3c0be0aa6f5318037147a74efe59a8d68ac5af`.
 - README da raiz do repositório: não alterado.
 
 ### Próximas ações, na ordem
@@ -558,4 +558,4 @@ Este checkpoint registra o estado do trabalho para retomada sem depender da mem�
 4. Não modificar o prompt até haver evidência de uma falha concreta que justifique ajuste.
 5. Só declarar validação concluída depois da execução e avaliação dos testes; até lá, manter o status como avaliação preliminar.
 
-**Decisão de continuidade:** este arquivo passa a concentrar o registro operacional e a análise histórica. As transcrições originais continuam no Dropbox. Não atribuir ao prompt atual resultados de rodadas cuja versão/configuração não estejam confirmadas.
+**Decisão de continuidade:** este arquivo concentra o registro operacional e a análise histórica; as transcrições originais continuam no Dropbox. A remoção de `testes-registro.md` foi feita somente após conferir que os temas exclusivos relevantes estavam preservados aqui. Não atribuir ao prompt atual resultados de rodadas cuja versão/configuração não estejam confirmadas.
