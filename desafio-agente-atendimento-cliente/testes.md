@@ -21,7 +21,7 @@ O projeto é uma simulação educacional. Os testes não certificam conformidade
 | [v1-inicial.md](versoes/v1-inicial.md) | Define papel, escopo, tom, limite de linhas, privacidade básica e encaminhamento humano. | A própria anotação da versão diz que não houve testes. | Não há resultado de teste atribuível a esta versão. |
 | [v2-guardrails.md](versoes/v2-guardrails.md) | Acrescenta regras contra revelação de instruções, alteração de persona e desvios do escopo. | O histórico menciona emulações em ferramentas diferentes e rodadas no Antigravity App/ChatGPT, mas não permite vincular com segurança cada conversa a este texto exato. | Há contexto de experimentação, mas não se pode declarar que uma transcrição específica testou exclusivamente esta versão. |
 | [v3-fontes-e-limites.md](versoes/v3-fontes-e-limites.md) | Explicita fontes oficiais, confirmação de informações, limites de atuação e distinção entre orientar e executar ações. | A anotação da versão diz que não foram realizados testes nesta etapa. | Não há resultado de teste atribuível exclusivamente a esta versão. |
-| [v4-final.md](versoes/v4-final.md) | Consolida regras de fontes oficiais, privacidade, elegibilidade, protocolo, encaminhamento e resistência a prompt injection. | A anotação menciona emulações no ChatGPT, Gemini App e Claude. O repositório contém transcrições do Antigravity App, ChatGPT e Claude; não há transcrição integral do Gemini App nesta documentação. A relação exata entre cada conversa e o texto carregado não está tecnicamente comprovada. | As conversas fornecem observações qualitativas sobre o desenvolvimento, mas não constituem validação controlada da v4. |
+| [v4-final.md](versoes/v4-final.md) | Consolida regras de fontes oficiais, privacidade, elegibilidade, protocolo, encaminhamento e resistência a prompt injection. | A anotação menciona emulações no ChatGPT, Antigravity App e Claude. O repositório contém transcrições dessas três ferramentas. A relação exata entre cada conversa e o texto carregado não está tecnicamente comprovada. | As conversas fornecem observações qualitativas sobre o desenvolvimento, mas não constituem validação controlada da v4. |
 
 ## 4. Registros de testes disponíveis
 
@@ -54,10 +54,6 @@ O projeto é uma simulação educacional. Os testes não certificam conformidade
 **Avaliação qualitativa:** a conversa contém respostas cautelosas sobre ações que o agente não poderia executar e sobre dados sensíveis. O próprio comentário aponta que o limite de 15 linhas pode dificultar respostas que precisem incluir ressalvas e fontes.
 
 **Rastreabilidade:** o registro descreve o teste como posterior a alterações no prompt, mas não comprova uma execução controlada com texto, configuração e ferramentas idênticos aos das outras plataformas. Portanto, não permite classificar Claude como superior em termos gerais.
-
-### 4.4 Gemini App
-
-A evolução do prompt menciona emulações no Gemini App. Contudo, não há neste arquivo uma transcrição integral do Gemini App que permita auditar entradas e respostas. Por esse motivo, não atribuo resultados específicos a essa ferramenta nem apresento uma comparação baseada em mensagens que não estão registradas aqui.
 
 ## 5. Síntese das conclusões observadas
 
