@@ -18,7 +18,7 @@ Cada desafio representa uma oportunidade de transformar um problema ou uma propo
 
 | Desafio | Descrição | Status |
 |---|---|---|
-| [Agente de atendimento ao cidadão — DETRAN-RJ](./desafio-agente-atendimento-cliente/) | Elaboração e refinamento de um prompt para um agente simulado de atendimento ao cidadão, com foco em dúvidas sobre a renovação da CNH no contexto do DETRAN-RJ. | Concluído |
+| [Agente de atendimento ao cidadão — DETRAN-RJ](./desafio-agente-atendimento-cliente/) | Elaboração e refinamento de um prompt para um agente simulado de atendimento ao cidadão, com foco em dúvidas sobre a renovação da CNH no contexto do DETRAN-RJ. | Documentação concluída; validação controlada pendente |
 
 *Novos desafios serão adicionados a esta lista conforme forem desenvolvidos e documentados.*
 
