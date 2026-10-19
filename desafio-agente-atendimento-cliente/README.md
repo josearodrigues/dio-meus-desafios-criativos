@@ -50,13 +50,13 @@ O prompt passou por refinamentos durante o desenvolvimento. Na versão final, os
 | Arquivo | Descrição |
 |---|---|
 | [`prompt.md`](./prompt.md) | Contém o prompt de referência desenvolvido para o agente. |
-| [`testes.md`](./testes.md) | Registro histórico consolidado, com transcrições integrais das conversas com ChatGPT, Antigravity App e Claude, avaliações técnicas, decisões e limitações conhecidas. |
+| [`testes.md`](./testes.md) | Registro histórico consolidado, com transcrições das conversas com ChatGPT, Antigravity App e Claude (URLs externas omitidas), avaliações técnicas e limitações conhecidas. |
 
-As transcrições integrais das três ferramentas estão incluídas em [`testes.md`](./testes.md), sem depender do acesso ao Dropbox para leitura. Os arquivos originais no Dropbox permanecem como referência de origem. A configuração exata e a versão do prompt usadas em todas as rodadas não estão confirmadas; não há histórico de versões do prompt registrado em commits.
+As conversas registradas das três ferramentas estão reproduzidas em [`testes.md`](./testes.md), com URLs externas omitidas para manter a documentação autocontida no GitHub. As transcrições não devem ser tratadas como cópias byte a byte das mensagens originais. A configuração exata e a versão do prompt usadas em todas as rodadas não estão confirmadas; não há histórico de versões do prompt registrado em commits.
 
 ## 5. Testes e validação
 
-O prompt foi testado com o auxílio do ChatGPT, do Antigravity App e do Claude. O registro consolidado distingue fontes integrais, resumos históricos e avaliações técnicas. Documenta também o método de refinamento: problema observado → causa provável → regra preventiva → comportamento esperado → teste de validação.
+O prompt foi testado com o auxílio do ChatGPT, do Antigravity App e do Claude. O registro consolidado distingue conversas reproduzidas, resumos históricos e avaliações técnicas; os endereços externos presentes nas mensagens foram omitidos. Documenta também o método de refinamento: problema observado → causa provável → regra preventiva → comportamento esperado → teste de validação.
 
 Os resultados relatados incluem boas recusas a pedidos de instruções internas e ao compartilhamento de credenciais, mas também riscos de informações regulatórias/financeiras sem verificação demonstrada, coleta desnecessária de dados e alegações de ações externas sem confirmação. O Claude foi mais explícito em algumas respostas ao distinguir o que não conseguiu confirmar, mas a comparação não foi controlada e não comprova superioridade geral.
 
