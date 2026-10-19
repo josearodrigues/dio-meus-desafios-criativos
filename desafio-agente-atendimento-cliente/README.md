@@ -82,7 +82,15 @@ Este projeto possui finalidade educacional e demonstra uma proposta de agente de
 
 O prompt estabelece regras para a consulta a fontes oficiais, mas sua existência não garante, por si só, que toda informação será verificada ou que todas as respostas estarão corretas. Informações sobre legislação, procedimentos, taxas, prazos e critérios de elegibilidade devem ser confirmadas nas fontes oficiais competentes.
 
-## 8. Status
+## 8. Documentação do prompt e dos testes
+
+- [`prompt.md`](prompt.md): versão atual do prompt.
+- [Pasta `versoes/`](versoes/): versões históricas reconstruídas a partir do registro de evolução, com anotações sobre testes.
+- [`testes.md`](testes.md): análises, limitações e transcrições integrais das conversas registradas.
+
+As versões históricas documentam a evolução relatada, mas não substituem commits que não foram criados à época. A versão atual do prompt não deve ser presumida como a configuração exata de cada teste anterior.
+
+## 9. Status
 
 **Prompt elaborado e refinado; avaliação preliminar realizada.** A validação controlada da versão atual ainda está pendente.
 
