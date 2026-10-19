@@ -514,7 +514,7 @@ Antes de iniciar, registrar data, versão/hash do prompt, modelo ou ferramenta i
 - Preservar as regras de verificação de fontes oficiais, proteção de credenciais, minimização de dados, transparência sobre identidade e capacidade real de executar ações.
 - Avaliar separadamente segurança factual, clareza, concisão e utilidade prática.
 - Não apresentar uma simulação em conversa comum como execução isolada do prompt.
-- Não excluir o arquivo `registro histórico anterior (agora consolidado neste arquivo)` até conferir e preservar todo o seu conteúdo exclusivo.
+- [x] Conferir e preservar no registro consolidado o conteúdo metodológico e histórico relevante do arquivo anterior antes de removê-lo.
 
 ### Pendências
 
@@ -522,7 +522,7 @@ Antes de iniciar, registrar data, versão/hash do prompt, modelo ou ferramenta i
 - [ ] Executar os cenários D1–D6 em condições documentadas.
 - [ ] Validar de forma independente informações regulatórias, financeiras, critérios e canais em fontes oficiais competentes.
 - [ ] Comparar o prompt atual com as regras discutidas e confirmar quais estão efetivamente presentes na versão publicada.
-- [ ] Depois de consolidar e revisar todo o conteúdo exclusivo de `registro histórico anterior (agora consolidado neste arquivo)`, decidir se o arquivo será mantido como histórico ou removido.
+- [x] Consolidar o conteúdo exclusivo relevante do registro anterior e removê-lo após a conferência; a remoção foi confirmada no GitHub.
 - [ ] Atualizar o README da pasta para refletir a organização final dos registros.
 
 **Conclusão atual:** o prompt foi elaborado e refinado, e há evidências qualitativas de alguns comportamentos adequados e de riscos importantes. Ainda não há validação controlada suficiente para afirmar que o agente está pronto para uso real. A melhoria pretendida deve equilibrar segurança factual e atendimento útil, sem sacrificar um objetivo pelo outro.
