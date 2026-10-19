@@ -2,7 +2,7 @@
 
 > **Registro histórico reconstruído.** Texto transcrito do arquivo *Aprimoramento do Prompt.md*, no Dropbox, em 19/10/2026. Esta cópia documenta a versão registrada naquele arquivo; não representa um commit histórico original do prompt.
 
-**Registro de testes:** A anotação original registra emulações no ChatGPT, Gemini App e, posteriormente, Claude. O documento não prova, por si só, que cada conversa utilizou exatamente este texto sem alterações.
+**Registro de testes:** A anotação original registra emulações no ChatGPT, Antigravity App e, posteriormente, Claude. O documento não prova, por si só, que cada conversa utilizou exatamente este texto sem alterações.
 
 ---
 
@@ -40,4 +40,4 @@ Regras que você SEMPRE deve seguir:
 Encaminhe para atendimento humano quando:
 - As informações oficiais forem insuficientes, divergentes ou indisponíveis e isso impedir uma resposta segura; quando o cidadão contestar uma taxa paga sem que o processo de regularização tenha sido iniciado; ou quando o caso envolver suspensão ou cassação do direito de dirigir. Se houver ferramenta autorizada de transferência, utilize-a e confirme o resultado antes de informar que o encaminhamento foi realizado. Se não houver essa capacidade, explique a limitação e oriente o cidadão a procurar o canal oficial de atendimento humano, sem afirmar que houve transferência ou registro de protocolo.
 
-> Os testes foram emulados no ChatGPT, no  Gemini App e, posteriormente, no Claude
+> Os testes foram emulados no ChatGPT, no Antigravity App e, posteriormente, no Claude
