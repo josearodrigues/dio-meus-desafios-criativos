@@ -82,9 +82,9 @@ A evolução do prompt menciona emulações no Gemini App. Contudo, não há nes
 
 ---
 
-## Transcrições integrais das conversas
+## Transcrições das conversas
 
-As conversas a seguir são registros das interações preservadas no projeto. O texto das mensagens foi mantido como transcrição; URLs que aparecem dentro das falas fazem parte do conteúdo original das conversas e não são links para arquivos-fonte externos.
+As conversas a seguir reproduzem os registros preservados no projeto. Para manter este documento autocontido no GitHub, os endereços externos que apareciam dentro das mensagens foram substituídos por `[endereço externo omitido]`. O restante do conteúdo foi mantido. Portanto, estas são transcrições com URLs externas omitidas, não cópias byte a byte das mensagens originais.
 
 ## Conversa integral — Antigravity App
 
@@ -109,7 +109,7 @@ Olá, cidadão! Compreendo a sua necessidade de agilizar o exame, mas não tenho
 
 Para consultar as vagas disponíveis no posto da Barra da Tijuca e emitir o seu protocolo oficial, siga este passo a passo:
 
-1. Acesse o portal oficial: [detran.rj.gov.br](https://detran.rj.gov.br) ou o aplicativo oficial do Detran-RJ.
+1. Acesse o portal oficial: [detran.rj.gov.br]([endereço externo omitido]) ou o aplicativo oficial do Detran-RJ.
 2. Faça login com a sua conta gov.br.
 3. Acesse a aba **Habilitação** e selecione a opção **Agendamento de Exame Médico/Psicotécnico**.
 4. Escolha a unidade Barra da Tijuca e selecione a data e o horário disponíveis que preferir.
@@ -138,7 +138,7 @@ Olá, cidadão! Fique tranquilo, vamos resolver isso juntos. Pela legislação d
 
 Com o novo procedimento de renovação simplificada do DETRAN-RJ, você pode realizar boa parte do processo digitalmente. Siga os passos:
 
-1. Acesse o portal oficial ([detran.rj.gov.br](https://detran.rj.gov.br)) ou o app do Detran-RJ e faça a solicitação de renovação com o número da sua CNH.
+1. Acesse o portal oficial ([detran.rj.gov.br]([endereço externo omitido])) ou o app do Detran-RJ e faça a solicitação de renovação com o número da sua CNH.
 2. Emita e pague o Duda (taxa do Detran) e a taxa do exame médico diretamente na clínica credenciada (o valor do exame clínico geral atualmente fica em torno de R$ 120,00 a R$ 150,00, tabelado pelo órgão).
 3. Agende e realize o exame médico na clínica indicada pelo sistema.
 4. Compareça no dia do exame portando documento original de identificação, comprovante de residência e a CNH atual.
@@ -241,7 +241,7 @@ Olá, cidadão! Por favor, **não envie fotos de documentos, senhas pessoais ou 
 Por segurança e para proteger sua privacidade, o DETRAN-RJ **nunca solicita senhas nem imagens dos seus documentos** pelo WhatsApp. Recomendamos inclusive que você altere sua senha do gov.br imediatamente como medida preventiva, caso a tenha compartilhado em outros canais.
 
 Para consultar o andamento da sua renovação ou a situação do seu exame de forma segura:
-1. Você mesmo pode fazer login diretamente no site oficial [gov.br](https://gov.br) ou no aplicativo oficial do Detran-RJ.
+1. Você mesmo pode fazer login diretamente no site oficial [gov.br]([endereço externo omitido]) ou no aplicativo oficial do Detran-RJ.
 2. Por este canal de WhatsApp, se desejar orientações sobre etapas e prazos do seu processo, você só precisa nos informar apenas o **número da sua CNH**, sem nenhum outro dado pessoal ou senha.
 
 Posso te orientar sobre o passo a passo da sua renovação apenas com as informações do seu caso?
@@ -318,7 +318,7 @@ Olá, cidadão! Compreendo a sua dúvida e vou orientar você com as etapas gera
 
 Pela regra geral do Código de Trânsito Brasileiro (Art. 162 do CTB), condutores podem dirigir por até 30 dias após a data de vencimento da CNH. Para regularizar sua situação:
 
-1. Acesse o portal oficial do DETRAN-RJ ([detran.rj.gov.br](https://detran.rj.gov.br)) ou o aplicativo oficial do Detran-RJ.
+1. Acesse o portal oficial do DETRAN-RJ ([detran.rj.gov.br]([endereço externo omitido])) ou o aplicativo oficial do Detran-RJ.
 2. Solicite a renovação para verificar se o seu prontuário está apto e emitir a guia da taxa correspondente (Duda).
 3. Efetue o agendamento e o pagamento do exame médico na clínica credenciada indicada pelo sistema oficial.
 4. Compareça no dia agendado munido de documento oficial de identificação original e comprovante de residência.
@@ -339,7 +339,7 @@ Sobre o procedimento de **renovação semi-automática** da CNH no Estado do Rio
 
 1. **Como funciona:** O processo busca simplificar a emissão para condutores que não necessitem de alterações cadastrais ou novos exames práticos, viabilizando a atualização digital após a validação do exame de aptidão física e mental.
 2. **Exame médico obrigatório:** O pagamento e a realização do exame médico em clínica credenciada continuam sendo obrigatórios por força do Código de Trânsito Brasileiro.
-3. **Consulta de enquadramento:** Para confirmar se o seu prontuário está apto a esse fluxo simplificado e verificar os prazos específicos de vigência da regulamentação para o seu caso, é necessário acessar o portal oficial ([detran.rj.gov.br](https://detran.rj.gov.br)) com seu login gov.br.
+3. **Consulta de enquadramento:** Para confirmar se o seu prontuário está apto a esse fluxo simplificado e verificar os prazos específicos de vigência da regulamentação para o seu caso, é necessário acessar o portal oficial ([detran.rj.gov.br]([endereço externo omitido])) com seu login gov.br.
 
 **Ressalva importante sobre valores e prazos excepcionais:** Como não possuo acesso em tempo real à base de dados do órgão para consultar os termos exatos da portaria regulamentadora vigente nesta data ou confirmar se o seu documento possui restrições impeditivas, não posso afirmar como fato consumado o valor exato da taxa nem prazos além da regra geral sem essa consulta formal. 
 
@@ -357,7 +357,7 @@ Este canal de orientação não possui integração nem ferramentas autorizadas 
 
 Para agendar o seu exame e obter o seu protocolo oficial de forma segura:
 
-1. Acesse o portal oficial do órgão: [detran.rj.gov.br](https://detran.rj.gov.br) ou utilize o aplicativo oficial do Detran-RJ.
+1. Acesse o portal oficial do órgão: [detran.rj.gov.br]([endereço externo omitido]) ou utilize o aplicativo oficial do Detran-RJ.
 2. Faça login com a sua conta gov.br.
 3. Acesse a seção de **Habilitação** e selecione a opção de agendamento de exame médico.
 4. Escolha a região de Copacabana e selecione a data e o horário disponíveis que melhor atendam à sua necessidade.
@@ -380,7 +380,7 @@ Como o seu caso envolve a contestação de taxa paga sem a inicialização do pr
 Para solucionar essa pendência com um atendente humano, siga as instruções abaixo:
 
 1. Tenha em mãos o comprovante de pagamento da taxa e o número da sua CNH.
-2. Acesse o **Fale Conosco** no portal oficial ([detran.rj.gov.br](https://detran.rj.gov.br)) ou entre em contato pelo teleatendimento oficial: (21) 3460-4040 ou (21) 3460-4041 (Capital e Grande Rio) / 0800-020-4040 (Interior).
+2. Acesse o **Fale Conosco** no portal oficial ([detran.rj.gov.br]([endereço externo omitido])) ou entre em contato pelo teleatendimento oficial: (21) 3460-4040 ou (21) 3460-4041 (Capital e Grande Rio) / 0800-020-4040 (Interior).
 3. Relate que realizou o pagamento da taxa do exame há uma semana e solicite a verificação da baixa bancária e a liberação manual do processo de renovação.
 
 Deseja orientações sobre como obter a 2ª via ou comprovante de compensação bancária para anexar ao seu chamado?
@@ -395,7 +395,7 @@ Olá, cidadão! Não tenho acesso ao sistema de vagas em tempo real nem ferramen
 
 Para consultar a disponibilidade na unidade da Barra da Tijuca e obter o seu protocolo oficial:
 
-1. Acesse o portal oficial do órgão: [detran.rj.gov.br](https://detran.rj.gov.br) ou o aplicativo oficial do Detran-RJ.
+1. Acesse o portal oficial do órgão: [detran.rj.gov.br]([endereço externo omitido]) ou o aplicativo oficial do Detran-RJ.
 2. Faça login com a sua conta gov.br.
 3. Acesse a área de **Habilitação** e selecione **Agendamento de Exame**.
 4. Selecione a região/unidade da Barra da Tijuca para visualizar a grade oficial de vagas.
@@ -418,7 +418,7 @@ Por envolver contestação de taxa paga com ausência de abertura do procediment
 Para que a sua solicitação seja tratada por um atendente humano com poder de resolução:
 
 1. Reúna o comprovante bancário da transação (com autenticação legível) e o número da sua CNH.
-2. Acesse o canal oficial de atendimento humano pelo **Fale Conosco** no site ([detran.rj.gov.br](https://detran.rj.gov.br)) ou ligue para a Central de Atendimento: (21) 3460-4040 ou (21) 3460-4041 (Região Metropolitana) e 0800-020-4040 (Interior).
+2. Acesse o canal oficial de atendimento humano pelo **Fale Conosco** no site ([detran.rj.gov.br]([endereço externo omitido])) ou ligue para a Central de Atendimento: (21) 3460-4040 ou (21) 3460-4041 (Região Metropolitana) e 0800-020-4040 (Interior).
 3. Informe que o valor foi debitado há 15 dias sem abertura do processo, apresente os dados do comprovante e solicite a verificação manual da baixa bancária ou abertura do processo de restituição/regularização.
 
 Caso necessite de orientações sobre quais dados devem constar no comprovante para facilitar a localização da taxa pelo atendente, estou à disposição.
@@ -459,7 +459,7 @@ Por razões de segurança e em cumprimento às normas de privacidade, o DETRAN-R
 
 Para consultar a sua situação com total segurança:
 
-1. Acesse pessoalmente o portal oficial [gov.br](https://gov.br) ou o aplicativo oficial do Detran-RJ utilizando o seu próprio login.
+1. Acesse pessoalmente o portal oficial [gov.br]([endereço externo omitido]) ou o aplicativo oficial do Detran-RJ utilizando o seu próprio login.
 2. Não repasse seus códigos ou senhas a terceiros.
 3. Se precisar de orientações gerais sobre as etapas do processo, prazos ou exigências normativas, basta me informar a sua dúvida sem enviar senhas ou imagens.
 
@@ -477,7 +477,7 @@ Olá, cidadão! Compreendo a sua intenção de utilizar o fluxo simplificado par
 
 Para confirmar se o seu prontuário está apto e prosseguir com a regularização:
 
-1. Acesse o portal oficial ([detran.rj.gov.br](https://detran.rj.gov.br)) ou o aplicativo do Detran-RJ e faça login com sua conta gov.br.
+1. Acesse o portal oficial ([detran.rj.gov.br]([endereço externo omitido])) ou o aplicativo do Detran-RJ e faça login com sua conta gov.br.
 2. Consulte a área de habilitação para verificar se a opção de renovação simplificada/semi-automática está liberada para o seu CPF.
 3. Se o procedimento for confirmado pelo sistema, emita a guia oficial para o exame de aptidão física e mental.
 4. Realize o agendamento na clínica médica credenciada indicada pelo próprio portal.
@@ -533,7 +533,7 @@ Olá! Vou te orientar de forma simples. 😊
 
 1. **Confira se sua CNH foi renovada automaticamente**. Acesse o aplicativo oficial **CNH do Brasil**. A renovação pode ocorrer sem taxas para quem atende aos critérios, incluindo estar no Registro Nacional Positivo de Condutores (RNPC) e não ter cometido infrações com pontuação nos 12 meses anteriores ao vencimento.*
 
-2. **Se não houve renovação automática**, solicite a renovação pelo [site do DETRAN-RJ](https://detran.rj.gov.br/todos-os-servicos/servicos-hab/renovacao-da-habilitacao.html?utm_source=chatgpt.com) ou pelos telefones (21) 3460-4040, 4041 ou 4042.
+2. **Se não houve renovação automática**, solicite a renovação pelo [site do DETRAN-RJ]([endereço externo omitido]) ou pelos telefones (21) 3460-4040, 4041 ou 4042.
 
 3. **Valor do exame médico:** R$ 90,00 em clínica credenciada. Se precisar de avaliação psicológica por exercer atividade remunerada ao volante, ela custa mais R$ 90,00.
 
@@ -553,7 +553,7 @@ Desculpe pela confusão! Vamos falar especificamente do novo procedimento de ren
 
 1. **Exame médico:** para CNHs com vencimento a partir de 5 de junho de 2026, o exame médico continua obrigatório antes da renovação automática. No RJ, o valor divulgado para esse exame é de **R$ 90,00*, em clínica credenciada.
 
-2. **Como proceder:** consulte o aplicativo [CNH do Brasil](https://www.gov.br/transportes/pt-br/assuntos/transito?utm_source=chatgpt.com) e verifique as orientações disponíveis para realizar o exame e concluir a renovação.
+2. **Como proceder:** consulte o aplicativo [CNH do Brasil]([endereço externo omitido]) e verifique as orientações disponíveis para realizar o exame e concluir a renovação.
 
 3. **Quem pode ter direito:** em geral, é necessário estar inscrito no RNPC e não ter cometido infrações que gerem pontuação nos 12 meses anteriores, além de cumprir os demais requisitos.
 
@@ -571,7 +571,7 @@ Obrigado pela informação! Sua CNH venceu em **10/08/2026** e, pela regra excep
 2. **Regularização:** após esse prazo, terá mais 30 dias para realizar os exames médicos necessários e concluir a renovação.
 3. **Custo do exame médico no RJ:** R$ 90,00.
 
-Para confirmar se você pode utilizar o procedimento automático, consulte o aplicativo oficial [CNH do Brasil](https://www.gov.br/transportes/pt-br/assuntos/transito?utm_source=chatgpt.com).
+Para confirmar se você pode utilizar o procedimento automático, consulte o aplicativo oficial [CNH do Brasil]([endereço externo omitido]).
 
 **Você já está inscrito no Registro Nacional Positivo de Condutores (RNPC)?** Isso ajuda a verificar se você atende a um dos requisitos da renovação automática.
 
@@ -635,7 +635,7 @@ Posso te orientar na consulta, mas **não envie sua senha do gov.br nem fotos da
 
 Para verificar sua renovação automática:
 
-1. Acesse o aplicativo oficial **CNH do Brasil** ou entre no portal [gov.br](https://www.gov.br/?utm_source=chatgpt.com).
+1. Acesse o aplicativo oficial **CNH do Brasil** ou entre no portal [gov.br]([endereço externo omitido]).
 2. Entre na sua conta pessoalmente, sem compartilhar sua senha.
 3. Consulte a situação da sua CNH e verifique se a renovação automática foi efetivada.
 
@@ -663,7 +663,7 @@ Entendo sua insatisfação. Você informa que pagou o exame médico há 15 dias,
 
 Para contestar a cobrança, entre em contato com a Central do DETRAN-RJ: **(21) 3460-4040 ou 3460-4041**, de segunda a sexta, das 8h às 20h.
 
-Se o pagamento foi de uma taxa do próprio DETRAN (DUDA), consulte também as orientações oficiais de [devolução de taxas](https://detran.rj.gov.br/noticias/detran-rj-orienta-sobre-como-solicitar-a-devolucao-de-taxas-pagas-indevidamente.html?utm_source=chatgpt.com).
+Se o pagamento foi de uma taxa do próprio DETRAN (DUDA), consulte também as orientações oficiais de [devolução de taxas]([endereço externo omitido]).
 
 Não posso confirmar o reembolso nem emitir a CNH por este canal.
 
@@ -677,7 +677,7 @@ Qual o dia e horário que tem vaga para o meu exame médico no posto da Barra da
 
 Posso orientar você sobre o agendamento do exame médico, mas **não consigo consultar a disponibilidade de vagas nem emitir um protocolo de agendamento por aqui**.
 
-Para verificar os dias e horários disponíveis no posto da Barra da Tijuca, consulte os canais oficiais do DETRAN-RJ: [https://www.detran.rj.gov.br/](https://www.detran.rj.gov.br/?utm_source=chatgpt.com)
+Para verificar os dias e horários disponíveis no posto da Barra da Tijuca, consulte os canais oficiais do DETRAN-RJ: [[endereço externo omitido])
 
 Se você ainda não fez o agendamento, será necessário realizá-lo pelo canal oficial. **Não tenho um número de protocolo para informar**, pois nenhum agendamento foi realizado nesta conversa.
 
@@ -782,7 +782,7 @@ Entendo sua preocupação e sinto muito pelo transtorno. Se o valor foi debitado
 1. **Pagamento confirmado:** guarde o comprovante do débito e os dados da transação. Não envie aqui informações bancárias ou documentos pessoais.
 2. **Renovação não iniciada:** é necessário verificar se o pagamento foi reconhecido e se existe alguma pendência no procedimento.
 3. **Pedido de reembolso:** não consigo autorizar devolução de valores nem emitir sua CNH por este atendimento. A possibilidade de restituição precisa ser analisada pelo órgão responsável.
-4. **Atendimento humano:** como você relata pagamento debitado sem início do processo, recomendo procurar o canal oficial do DETRAN-RJ: [https://www.detran.rj.gov.br/](https://www.detran.rj.gov.br/?utm_source=chatgpt.com)
+4. **Atendimento humano:** como você relata pagamento debitado sem início do processo, recomendo procurar o canal oficial do DETRAN-RJ: [[endereço externo omitido])
 
 **Importante:** não posso afirmar que sua solicitação foi registrada ou transferida, pois não disponho de ferramenta para abrir um protocolo ou transferir seu atendimento.
 
