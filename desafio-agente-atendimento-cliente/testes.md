@@ -2,7 +2,7 @@
 
 ## Finalidade
 
-Este é o registro consolidado e operacional do projeto: reúne os resumos históricos, as avaliações técnicas, as decisões de refinamento, a comparação entre ferramentas, as referências às transcrições originais e o plano de validação. Novas execuções devem ser registradas aqui, preservando entradas e respostas literalmente. As transcrições integrais das conversas históricas com Antigravity App, ChatGPT e Claude estão incluídas ao final deste arquivo. Os arquivos originais no Dropbox servem apenas como referência de origem e integridade.
+Este é o registro consolidado do projeto: reúne os resumos históricos, as avaliações técnicas, as decisões de refinamento, a comparação entre ferramentas e as transcrições integrais já realizadas. Novas execuções, se solicitadas futuramente, devem ser registradas aqui, preservando entradas e respostas literalmente. As transcrições integrais das conversas históricas com Antigravity App, ChatGPT e Claude estão incluídas ao final deste arquivo. Os arquivos originais no Dropbox servem apenas como referência de origem e integridade.
 
 ## Regras de preenchimento
 
@@ -474,7 +474,9 @@ Exemplo já discutido: se o agente informa que não acessa o sistema de agendame
 
 Outro princípio derivado da observação do autor: **quando não puder confirmar uma informação, o agente deve limitar a afirmação, não abandonar o atendimento.** Deve explicar o que consegue esclarecer, o que permanece incerto e qual próximo passo é seguro e útil, sem inventar fatos ou ações.
 
-## Próxima validação controlada — casos D1–D6
+## Plano histórico de validação controlada — casos D1–D6
+
+**Status nesta finalização:** estes casos são um plano histórico, não uma tarefa a executar agora. O usuário delimitou a atividade à organização das conversas já realizadas; não foi autorizada nova bateria de testes nem pesquisa adicional em fontes oficiais.
 
 **Status:** planejada; ainda não executada como rodada isolada com configuração inteiramente documentada.
 
@@ -519,7 +521,7 @@ Antes de iniciar, registrar data, versão/hash do prompt, modelo ou ferramenta i
 ### Pendências
 
 - [ ] Recuperar e associar transcrições literais às rodadas históricas quando disponíveis; manter resumos identificados como resumos.
-- [ ] Executar os cenários D1–D6 em condições documentadas.
+- [x] Não executar os cenários D1–D6 nesta finalização; permanecem apenas como plano histórico, conforme o escopo definido pelo usuário.
 - [ ] Validar de forma independente informações regulatórias, financeiras, critérios e canais em fontes oficiais competentes.
 - [ ] Comparar o prompt atual com as regras discutidas e confirmar quais estão efetivamente presentes na versão publicada.
 - [x] Consolidar o conteúdo exclusivo relevante do registro anterior e removê-lo após a conferência; a remoção foi confirmada no GitHub.
