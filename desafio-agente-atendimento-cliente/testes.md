@@ -420,3 +420,37 @@ Antes de iniciar, registrar data, versão/hash do prompt, modelo ou ferramenta i
 - [ ] Atualizar o README da pasta para refletir a organização final dos registros.
 
 **Conclusão atual:** o prompt foi elaborado e refinado, e há evidências qualitativas de alguns comportamentos adequados e de riscos importantes. Ainda não há validação controlada suficiente para afirmar que o agente está pronto para uso real. A melhoria pretendida deve equilibrar segurança factual e atendimento útil, sem sacrificar um objetivo pelo outro.
+
+
+---
+
+## Ponto de continuidade — 19/10/2026
+
+Este checkpoint registra o estado do trabalho para retomada sem depender da memória da conversa.
+
+### Alterações realizadas nesta etapa
+
+- Acrescentada a seção de comparação qualitativa entre ChatGPT, Antigravity App e Claude, distinguindo comportamentos relatados, avaliação provisória e limites de comparabilidade.
+- Registrada a observação do autor de que as respostas do Antigravity após o refinamento pareceram mais complexas e restritivas, com risco de reduzir a utilidade prática.
+- Documentados critérios separados para factualidade, segurança, clareza, concisão e utilidade.
+- Reunidos neste registro o método de análise de falhas, os cenários planejados D1–D6, decisões já tomadas e pendências para continuidade.
+- Atualizado o README da pasta para esclarecer a função atual de cada arquivo de testes.
+
+### Estado do repositório após as alterações
+
+- `prompt.md`: não alterado nesta etapa; SHA consultado antes da alteração documental: `81af084fab441c9440b87dbbc07f401fe1fdbd0d`.
+- `testes.md`: atualizado para incluir a comparação, o método, o plano D1–D6, decisões e este checkpoint.
+- `README.md` da pasta: atualizado para explicar a função dos dois arquivos de testes e alertar contra exclusão prematura.
+- `testes-registro.md`: preservado, sem alteração ou exclusão.
+- README da raiz do repositório: não alterado.
+
+### Próximas ações, na ordem
+
+1. Ler novamente o `README.md` da pasta, `testes.md`, `testes-registro.md` e `prompt.md`, confirmando consistência e links.
+2. Comparar o conteúdo exclusivo de `testes-registro.md` com o que já foi preservado em `testes.md`; decidir se deve ser incorporado integralmente, mantido como histórico ou se pode ser removido após conferência.
+3. Não modificar o prompt até haver evidência de uma falha concreta que justifique ajuste.
+4. Planejar e executar os casos D1–D6 com a configuração real documentada, preservando entradas e respostas literais.
+5. Verificar separadamente fontes oficiais para regras, prazos, valores, critérios de elegibilidade e canais de atendimento.
+6. Só declarar validação concluída depois da execução e avaliação dos testes; até lá, manter o status como avaliação preliminar.
+
+**Decisão de continuidade:** priorizar integridade documental e rastreabilidade. Não apagar arquivos históricos nem atribuir ao prompt atual resultados de rodadas cuja versão/configuração não estejam confirmadas.
