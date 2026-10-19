@@ -50,8 +50,10 @@ O prompt passou por refinamentos durante o desenvolvimento. Na versão final, os
 | Arquivo | Descrição |
 |---|---|
 | [`prompt.md`](./prompt.md) | Contém o prompt de referência desenvolvido para o agente. |
-| [`testes-registro.md`](./testes-registro.md) | Registra os testes relatados, os comportamentos observados, as avaliações técnicas e as pendências de validação. |
-| [`testes.md`](./testes.md) | Registro operacional das rodadas disponíveis e modelo para documentar novas execuções, entradas/respostas literais, avaliação, evidências e pendências. Rodadas antigas sem transcrição integral estão identificadas como resumos. |
+| [`testes.md`](./testes.md) | Registro operacional das rodadas disponíveis, avaliações qualitativas, comparação preliminar entre agentes e plano de validação D1–D6. Resumos históricos estão identificados como resumos, não como transcrições literais. |
+| [`testes-registro.md`](./testes-registro.md) | Registro histórico complementar do processo de refinamento, relação entre problemas e decisões de projeto e pendências já documentadas. Ainda contém material metodológico e histórico que precisa ser conferido antes de qualquer decisão de consolidação ou exclusão. |
+
+Os dois arquivos de testes permanecem separados nesta etapa para preservar a rastreabilidade. Não se deve excluir `testes-registro.md` até comparar seu conteúdo com `testes.md` e confirmar que toda informação exclusiva foi preservada.
 
 ## 5. Testes e validação
 
