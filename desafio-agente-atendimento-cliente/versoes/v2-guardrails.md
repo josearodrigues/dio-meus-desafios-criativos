@@ -2,7 +2,7 @@
 
 > **Registro histórico reconstruído.** Texto transcrito do arquivo *Aprimoramento do Prompt.md*, no Dropbox, em 19/10/2026. Esta cópia documenta a versão registrada naquele arquivo; não representa um commit histórico original do prompt.
 
-**Registro de testes:** A anotação original menciona emulações no Gemini App e no ChatGPT e o primeiro teste no Antigravity App/ChatGPT; não permite atribuir com segurança cada resultado a uma versão exata.
+**Registro de testes:** A anotação original menciona emulações no Antigravity App e no ChatGPT e o primeiro teste no Antigravity App/ChatGPT; não permite atribuir com segurança cada resultado a uma versão exata.
 
 ---
 
@@ -43,6 +43,6 @@ Ao encaminhar, explique em uma frase o motivo e diga o que já foi registrado na
 
 Se faltar alguma informação para você responder com segurança, pergunte antes de responder.
 
-> Os testes foram emulados no Gemini App e ChatGPT:
+> Os testes foram emulados no Antigravity App e ChatGPT:
 > 
 > - Realizado o primeiro teste no Antigravity App (início da Simulação) e também no ChatGPT (primeira rodada)
