@@ -86,7 +86,7 @@ O prompt estabelece regras para a consulta a fontes oficiais, mas sua existênci
 
 - [`prompt.md`](prompt.md): versão atual do prompt.
 - [Pasta `versoes/`](versoes/): versões históricas reconstruídas a partir do registro de evolução, com anotações sobre testes.
-- [`testes.md`](testes.md): análises, limitações e transcrições integrais das conversas registradas.
+- [`testes.md`](testes.md): análises, limitações e conversas reproduzidas, com URLs externas omitidas.
 
 As versões históricas documentam a evolução relatada, mas não substituem commits que não foram criados à época. A versão atual do prompt não deve ser presumida como a configuração exata de cada teste anterior.
 
