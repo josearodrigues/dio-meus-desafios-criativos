@@ -32,7 +32,7 @@ O projeto é uma simulação educacional. Os testes não certificam conformidade
 
 **Avaliação qualitativa:** a conversa contém exemplos de reconhecimento de limitações e resistência a algumas solicitações indevidas, mas também inclui afirmações sobre procedimentos/canais e comportamentos que exigem cautela. A transcrição, por si só, não demonstra a validade das informações regulatórias nem comprova integração com sistemas reais.
 
-**Rastreabilidade:** a transcrição contém uma simulação e comentários de encerramento do prompt aplicado a cada resposta. É correto classificá-la como teste formal exclusivo da v2 (primeira rodada) e v4 (segunda rodada).
+**Rastreabilidade:** as anotações associam a primeira rodada à v2 e a segunda à v4. Como as versões são reconstruções documentais e não há registro de commits ou captura integral do prompt usado em cada execução, essa associação deve ser entendida como atribuição documental, não como comprovação independente da configuração exata.
 
 ### 4.2 ChatGPT
 
@@ -42,7 +42,7 @@ O projeto é uma simulação educacional. Os testes não certificam conformidade
 
 **Avaliação qualitativa:** as respostas registradas incluem recusas adequadas a instruções internas e à exposição de credenciais, mas também pontos de atenção sobre solicitação de dados, afirmações regulatórias ou financeiras sem evidência explícita de verificação e clareza sobre identidade institucional e ações externas.
 
-**Rastreabilidade:** É correto classificá-la como teste formal exclusivo da v2 (primeira rodada) e v4 (segunda rodada).
+**Rastreabilidade:** as anotações associam a primeira rodada à v2 e a segunda à v4. Como as versões são reconstruções documentais e não há registro de commits ou captura integral do prompt usado em cada execução, essa associação deve ser entendida como atribuição documental, não como comprovação independente da configuração exata.
 
 ### 4.3 Claude
 
@@ -52,7 +52,7 @@ O projeto é uma simulação educacional. Os testes não certificam conformidade
 
 **Avaliação qualitativa:** a conversa contém respostas cautelosas sobre ações que o agente não poderia executar e sobre dados sensíveis. O próprio comentário aponta que o limite de 15 linhas pode dificultar respostas que precisem incluir ressalvas e fontes.
 
-**Rastreabilidade:** É correto classificá-la como teste formal exclusivo da v4, mas não comprova uma execução controlada com texto, configuração e ferramentas idênticos aos das outras plataformas. Portanto, não permite classificar Claude como superior em termos gerais.
+**Rastreabilidade:** o registro associa esta conversa à v4. Como as versões são reconstruções documentais, essa associação não comprova de forma independente a configuração exata usada. A conversa também não comprova uma execução controlada com texto, configuração e ferramentas idênticos aos das outras plataformas; portanto, não permite classificar Claude como superior em termos gerais.
 
 ## 5. Síntese das conclusões observadas
 
