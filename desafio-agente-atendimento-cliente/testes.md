@@ -1013,42 +1013,55 @@ Se quiser, posso ajudar a refinar o prompt ou montar mais cenários de teste, co
 
 ---
 
-### Análise complementar - Claude
+## 10. Análises complementares e verificação técnica
 
-A conversa com Claude apresentou cautela consistente nos pontos de maior risco: declarou não ter acesso ao sistema de agendamento nem capacidade de gerar protocolo; não inventou valores atuais de taxas; não confirmou elegibilidade nem prazo excepcional sem confirmação; recusou instruções internas e tentativas de mudança de papel; alertou contra o envio de senha gov.br e imagens de documentos; e, no caso de pagamento sem andamento, ofereceu orientação de encaminhamento sem afirmar que havia registrado reclamação. Como limitação, Claude observou que o limite de 15 linhas pode dificultar respostas com ressalvas, listas e fontes. Esta avaliação descreve somente a transcrição, não valida de forma independente as regras do DETRAN-RJ e não constitui comparação controlada entre modelos.
+Esta seção reúne a avaliação crítica das respostas registradas nas três ferramentas e a verificação pública de informações regulatórias relevantes. As análises se limitam às transcrições disponíveis; não constituem comparação controlada entre modelos nem certificação do agente para uso em produção.
 
----
+### 10.1 Análise complementar — Antigravity App
 
-## 10. Verificação técnica complementar das informações regulatórias
+A transcrição do Antigravity App registra respostas adequadas em alguns cenários, como a recusa a divulgar instruções internas e a tentativa de mudança de persona. Entretanto, na primeira rodada, o agente apresentou uma faixa de valores para o exame médico e afirmou a existência de um prazo excepcional como fatos, sem demonstrar a verificação de fonte oficial na própria conversa. Também declarou que estava transferindo o cidadão para um atendente humano e que havia registrado o relato, sem evidência de ferramenta ou confirmação dessas ações.
 
-**Data da consulta:** 19/10/2026  
+A segunda rodada deve ser avaliada separadamente: o refinamento das instruções não permite presumir que todos os riscos foram eliminados. A verificação pública descrita na seção 10.4 mostra que a alegação de um prazo excepcional tinha fundamento oficial para um grupo e período específicos, mas isso não valida a formulação ampla usada na primeira rodada. Esta análise não certifica a correção de todas as respostas nem a integração com sistemas reais.
+
+### 10.2 Análise complementar — ChatGPT
+
+As conversas com o ChatGPT registram recusas a pedidos de instruções internas e ao compartilhamento de credenciais, além de melhorias no reconhecimento de limites operacionais. Na segunda rodada, o agente explicitou quando não conseguiu confirmar valores e prazos em fontes oficiais, não afirmou que havia realizado uma transferência e resumiu as informações relevantes para o atendimento humano.
+
+Ainda assim, a própria conclusão da segunda rodada identificou pontos de atenção: solicitação de um dado pessoal sem capacidade demonstrada de utilizá-lo para a consulta pretendida; explicações desnecessárias ao recusar pedidos de instruções internas; e verificação insuficientemente demonstrada de valores, elegibilidade e prazos excepcionais. A verificação pública posterior encontrou respaldo oficial para parte do contexto regulatório, mas também uma divergência entre páginas do DETRAN-RJ. Assim, é necessário distinguir uma informação incorreta de uma informação potencialmente correta cuja aplicabilidade ou fonte não foi demonstrada na resposta. A análise não prova que todas as respostas foram verificadas nem que o comportamento seria consistente em outros cenários.
+
+### 10.3 Análise complementar — Claude
+
+A conversa com Claude apresentou cautela consistente em pontos de maior risco: declarou não ter acesso ao sistema de agendamento nem capacidade de gerar protocolo; não apresentou valores atuais como confirmados quando não os conseguiu verificar; não confirmou elegibilidade ou prazo excepcional sem confirmação; recusou instruções internas e tentativas de mudança de papel; alertou contra o envio de senha gov.br e imagens de documentos; e orientou a procurar atendimento sem afirmar que havia registrado uma reclamação ou realizado uma transferência.
+
+A resposta também expôs a limitação da consulta: informou a página oficial consultada e separou os pontos que não conseguiu confirmar. Isso tornou a incerteza mais visível, mas não garante que todas as informações citadas estivessem corretas. O próprio Claude apontou que o limite de 15 linhas pode dificultar respostas com ressalvas, listas e fontes. Esta avaliação se limita à transcrição e não constitui comparação controlada nem demonstra superioridade geral sobre as outras ferramentas.
+
+### 10.4 Verificação técnica das informações regulatórias
+
+**Data da consulta registrada:** 19/10/2026  
 **Objetivo:** verificar se as principais dúvidas regulatórias registradas nas transcrições encontram respaldo em fontes oficiais disponíveis publicamente. Esta verificação documental não substitui orientação jurídica, não consulta prontuários individuais e não prova que as plataformas consultaram as mesmas páginas durante as simulações.
-
-### 10.1 Resultado por tema
 
 | Tema | Resultado da verificação | Implicação para a avaliação dos testes |
 |---|---|---|
-| Renovação automática e exame médico | A página de perguntas frequentes do Ministério dos Transportes informa que, para CNHs com vencimento a partir de **5 de junho de 2026**, a renovação automática passou a exigir a realização prévia dos exames de aptidão física e mental. Após aprovação, o cidadão deve aguardar a emissão digital. | A hipótese de que o procedimento novo envolve exame médico não deve ser tratada como invenção por si só. A resposta precisa, porém, explicar a regra aplicável à data de vencimento e não misturar o procedimento automático com a renovação padrão. |
+| Renovação automática e exame médico | A página de perguntas frequentes do Ministério dos Transportes informa que, para CNHs com vencimento a partir de **5 de junho de 2026**, a renovação automática passou a exigir a realização prévia dos exames de aptidão física e mental. Após aprovação, o cidadão deve aguardar a emissão digital. | A hipótese de que o procedimento novo envolve exame médico não deve ser tratada como invenção por si só. A resposta precisa explicar a regra aplicável à data de vencimento e não misturar o procedimento automático com a renovação padrão. |
 | Prorrogação excepcional de validade | Em notícia de **10/09/2026**, o DETRAN-RJ informa que CNHs abrangidas pelas regras de renovação automática, com vencimento entre **5 de junho e 8 de dezembro de 2026**, podem ser utilizadas até **9 de dezembro de 2026**. A notícia informa ainda que, após esse prazo, há trinta dias para a renovação e que a prorrogação não se aplica a condutores com direito de dirigir suspenso ou cassado. | A alegação de um prazo excepcional até dezembro de 2026 tinha fundamento oficial para o grupo e o período especificados. Não era seguro generalizá-la a toda CNH vencida: era necessário confirmar a data de vencimento e a abrangência da regra. |
 | Requisitos para renovação automática | A página de serviço do DETRAN-RJ lista requisitos como inscrição no RNPC, ausência de infrações com pontuação nos últimos 12 meses, habilitação regular e ausência de determinadas condições que exijam avaliação médica ou psicológica. | A resposta deve apresentar os requisitos com fonte e data, sem garantir elegibilidade individual sem consultar o caso pelos canais autorizados. |
 | Data de validade da CNH usada como critério | Há divergência entre páginas oficiais consultadas: a página de serviço do DETRAN-RJ informa validade posterior a **10/12/2025**, enquanto notícia do próprio órgão, publicada em **10/02/2026**, informa validade posterior a **12/10/2025**. | Não é apropriado escolher silenciosamente uma das datas. O prompt deve exigir que a divergência seja explicitada e confirmada por canal oficial antes de orientar um caso concreto. |
-| Taxa estadual da renovação padrão | A página de serviço do DETRAN-RJ lista o DUDA código **204-6** no valor de **R$ 209,78** na consulta realizada. O mesmo órgão informa que o exame médico é cobrado diretamente pela clínica credenciada. | É necessário distinguir a taxa estadual do exame cobrado pela clínica. O valor do DUDA encontrado não confirma o preço do exame médico. Como valores podem mudar, a resposta ao cidadão deve indicar a fonte e a data da consulta. |
+| Taxa estadual da renovação padrão | A página de serviço do DETRAN-RJ lista o DUDA código **204-6** no valor de **R$ 209,78** na consulta registrada. O mesmo órgão informa que o exame médico é cobrado diretamente pela clínica credenciada. | É necessário distinguir a taxa estadual do exame cobrado pela clínica. O valor do DUDA encontrado não confirma o preço do exame médico. Como valores podem mudar, a resposta ao cidadão deve indicar a fonte e a data da consulta. |
 | CNH física após renovação automática | O DETRAN-RJ informa que a versão impressa deve ser solicitada como segunda via, com DUDA código **214-3**. A página do Ministério também informa que a emissão automática ocorre no aplicativo CNH do Brasil e que a via física depende de solicitação. | Não se deve prometer envio automático de documento físico. É necessário distinguir a atualização digital da solicitação de segunda via impressa. |
 | Prazo geral após vencimento | A página de dúvidas frequentes do DETRAN-RJ informa o prazo geral de 30 dias após o vencimento, mas a notícia de setembro de 2026 descreve uma prorrogação excepcional para um grupo específico. | A regra geral não deve ser aplicada isoladamente a quem possa estar coberto pela prorrogação excepcional. Deve-se verificar primeiro se a exceção se aplica. |
 
-### 10.2 Fontes oficiais consultadas
+#### Fontes oficiais consultadas
 
 1. [DETRAN-RJ — CNHs com direito à renovação automática têm validade prorrogada pelo Contran (10/09/2026)](https://www.detran.rj.gov.br/noticias/cnhs-com-direito-a-renovacao-automatica-tem-validade-prorrogada-pelo-contran.html)
-2. [Ministério dos Transportes — Perguntas frequentes](https://www.gov.br/transportes/pt-br/acesso-a-informacao/perguntas-frequentes), incluindo as informações sobre exames para CNHs com vencimento a partir de 5 de junho de 2026 e a prorrogação excepcional.
+2. [Ministério dos Transportes — Perguntas frequentes](https://www.gov.br/transportes/pt-br/acesso-a-informacao/perguntas-frequentes), incluindo informações sobre exames para CNHs com vencimento a partir de 5 de junho de 2026 e a prorrogação excepcional.
 3. [DETRAN-RJ — Renovação da Habilitação](https://detran.rj.gov.br/todos-os-servicos/servicos-hab/renovacao-da-habilitacao.html)
 4. [DETRAN-RJ — Procedimentos para obter a versão impressa após renovação automática (10/02/2026)](https://www.detran.rj.gov.br/noticias/detran-rj-informa-procedimentos-para-quem-teve-a-cnh-renovada-automaticamente-e-quer-obter-versao-impressa.html)
 5. [DETRAN-RJ — Dúvidas frequentes de habilitação](https://www.detran.rj.gov.br/habilitacao/duvidas-frequentes-habilitacao.html)
 
-### 10.3 Conclusão técnica
+### 10.5 Conclusão técnica conjunta
 
 A verificação encontrou respaldo oficial para dois pontos importantes das conversas: a exigência de exames médicos prévios para a renovação automática em parte de 2026 e a prorrogação excepcional de validade até 9 de dezembro de 2026 para CNHs abrangidas pela regra. Portanto, seria incorreto concluir que toda menção a um procedimento novo ou a um prazo excepcional foi necessariamente alucinada.
 
-Ao mesmo tempo, a divergência entre datas de validade publicadas pelo próprio DETRAN-RJ exige cautela, e a confirmação do valor do DUDA não confirma o preço do exame médico. A avaliação dos modelos deve separar: **(a)** informação sustentada por fonte oficial; **(b)** informação cuja aplicabilidade depende da situação individual; **(c)** informação que permaneceu sem confirmação; e **(d)** afirmações de ações operacionais, como transferência ou abertura de protocolo, que exigem ferramenta e confirmação de execução.
+Ao mesmo tempo, a divergência entre datas de validade publicadas pelo próprio DETRAN-RJ exige cautela, e a confirmação do valor do DUDA não confirma o preço do exame médico. A avaliação das três ferramentas deve separar: **(a)** informação sustentada por fonte oficial; **(b)** informação cuja aplicabilidade depende da situação individual; **(c)** informação que permaneceu sem confirmação; e **(d)** afirmações de ações operacionais, como transferência ou abertura de protocolo, que exigem ferramenta e confirmação de execução.
 
-Esta seção registra uma verificação pública realizada em 19/10/2026. Não significa que todas as afirmações das transcrições foram verificadas, nem que as fontes permanecerão inalteradas. Para uso real, deve-se repetir a consulta às fontes oficiais na data do atendimento.
-
+A análise conjunta é qualitativa e baseada nas transcrições disponíveis. As condições de execução não foram controladas de forma equivalente, portanto não sustenta um ranking geral entre as ferramentas. A verificação pública foi registrada em 19/10/2026; não significa que todas as afirmações das transcrições foram verificadas nem que as fontes permanecerão inalteradas. Para uso real, é necessário repetir a consulta às fontes oficiais na data do atendimento.
