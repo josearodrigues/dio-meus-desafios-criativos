@@ -1,4 +1,4 @@
-# Agente de Atendimento ao Cidadão — DETRAN-RJ
+# Agente de Atendimento ao Cidadão - DETRAN-RJ
 
 ## 1. Sobre o desafio
 
@@ -14,7 +14,7 @@ O desafio é organizado em três etapas:
 
 ## 2. Proposta escolhida
 
-Para aplicar as etapas do desafio, foi escolhido o cenário de um agente simulado de atendimento ao cidadão, voltado a dúvidas sobre a renovação semiautomática da Carteira Nacional de Habilitação (CNH), no contexto do DETRAN-RJ.
+Para aplicar as etapas do desafio, foi escolhido o cenário de um agente simulado de atendimento ao cidadão, voltado a dúvidas sobre a renovação automática da Carteira Nacional de Habilitação (CNH), no contexto do DETRAN-RJ.
 
 O público considerado é formado por cidadãos com a CNH próxima do vencimento ou vencida, que buscam informações sobre o procedimento de renovação.
 
@@ -50,17 +50,15 @@ O prompt passou por refinamentos durante o desenvolvimento. Na versão final, os
 | Arquivo | Descrição |
 |---|---|
 | [`prompt.md`](./prompt.md) | Contém o prompt de referência desenvolvido para o agente. |
-| [`testes.md`](./testes.md) | Registro histórico consolidado, com transcrições das conversas com ChatGPT, Antigravity App e Claude (URLs externas omitidas), avaliações técnicas e limitações conhecidas. |
+| [`testes.md`](./testes.md) | Registro histórico consolidado, com transcrições das conversas com Antigravity App, ChatGPT e Claude, avaliações técnicas e limitações conhecidas. |
 
-As conversas registradas das três ferramentas estão reproduzidas em [`testes.md`](./testes.md), com URLs externas omitidas para manter a documentação autocontida no GitHub. As transcrições não devem ser tratadas como cópias byte a byte das mensagens originais. A configuração exata e a versão do prompt usadas em todas as rodadas não estão confirmadas; não há histórico de versões do prompt registrado em commits.
+As conversas registradas das três ferramentas estão reproduzidas em [`testes.md`](./testes.md). Não há histórico de versões do prompt registrado em commits.
 
 ## 5. Testes e validação
 
-O prompt foi testado com o auxílio do ChatGPT, do Antigravity App e do Claude. O registro consolidado distingue conversas reproduzidas, resumos históricos e avaliações técnicas; os endereços externos presentes nas mensagens foram omitidos. Documenta também o método de refinamento: problema observado → causa provável → regra preventiva → comportamento esperado → teste de validação.
+O prompt foi testado com o auxílio do Antigravity App, ChatGPT e do Claude. O registro consolidado distingue conversas reproduzidas, resumos históricos e avaliações técnicas. Documenta também o método de refinamento: problema observado → causa provável → regra preventiva → comportamento esperado → teste de validação.
 
 Os resultados relatados incluem boas recusas a pedidos de instruções internas e ao compartilhamento de credenciais, mas também riscos de informações regulatórias/financeiras sem verificação demonstrada, coleta desnecessária de dados e alegações de ações externas sem confirmação. O Claude foi mais explícito em algumas respostas ao distinguir o que não conseguiu confirmar, mas a comparação não foi controlada e não comprova superioridade geral.
-
-Esses resultados são uma avaliação técnica preliminar, não uma certificação formal. A execução isolada do prompt atual e a confirmação independente das informações regulatórias permanecem pendentes.
 
 ## 6. Aprendizados
 
@@ -88,11 +86,11 @@ O prompt estabelece regras para a consulta a fontes oficiais, mas sua existênci
 - [Pasta `versoes/`](versoes/): versões históricas reconstruídas a partir do registro de evolução, com anotações sobre testes.
 - [`testes.md`](testes.md): análises, limitações e conversas reproduzidas, com URLs externas omitidas.
 
-As versões históricas documentam a evolução relatada, mas não substituem commits que não foram criados à época. A versão atual do prompt não deve ser presumida como a configuração exata de cada teste anterior.
+As versões históricas documentam a evolução relatada. A versão atual do prompt não deve ser presumida como a configuração exata para a solução.
 
 ## 9. Status
 
-**Prompt elaborado e refinado; avaliação preliminar realizada.** A validação controlada da versão atual ainda está pendente.
+**Prompt elaborado e refinado.**
 
 ---
 

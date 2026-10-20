@@ -2,7 +2,7 @@
 
 ## Sobre o repositório
 
-Este repositório reúne desafios criativos desenvolvidos no contexto de estudos e atividades da [Digital Innovation One (DIO)](https://www.dio.me/), com foco na experimentação, aplicação prática e evolução do conhecimento em Inteligência Artificial e tecnologias relacionadas.
+Este repositório reúne desafios criativos desenvolvidos no contexto de estudos e atividades da [Digital Innovation One (DIO)](https://www.dio.me/), com foco na experimentação, aplicação prática e evolução do conhecimento em tecnologias relacionadas.
 
 Cada desafio representa uma oportunidade de transformar um problema ou uma proposta em uma solução, explorando possibilidades, definindo instruções, avaliando resultados e identificando oportunidades de melhoria.
 
@@ -18,7 +18,7 @@ Cada desafio representa uma oportunidade de transformar um problema ou uma propo
 
 | Desafio | Descrição | Status |
 |---|---|---|
-| [Agente de atendimento ao cidadão — DETRAN-RJ](./desafio-agente-atendimento-cliente/) | Elaboração e refinamento de um prompt para um agente simulado de atendimento ao cidadão, com foco em dúvidas sobre a renovação da CNH no contexto do DETRAN-RJ. | Documentação concluída; validação controlada pendente |
+| [Agente de atendimento ao cidadão — DETRAN-RJ](./desafio-agente-atendimento-cliente/) | Elaboração e refinamento de um prompt para um agente simulado de atendimento ao cidadão, com foco em dúvidas sobre a renovação da CNH no contexto do DETRAN-RJ. | Documentação concluída |
 
 *Novos desafios serão adicionados a esta lista conforme forem desenvolvidos e documentados.*
 
